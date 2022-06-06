@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Home from './pages/Home';
 import Calculatrice from './pages/Calculatrice';
@@ -14,17 +14,11 @@ root.render(
     <React.StrictMode>
       <BrowserRouter>
         <NavBar />
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/calculator">
-            <Calculatrice />
-          </Route>
-          <Route path="/quotes">
-            <Quotes />
-          </Route>
-        </Switch>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/calculator" element={<Calculatrice />} />
+          <Route path="/quotes" element={<Quotes />} />
+        </Routes>
       </BrowserRouter>
     </React.StrictMode>
   </>,
