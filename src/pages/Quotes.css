@@ -1,0 +1,14 @@
+.container {
+  background-color: rgb(30, 130, 30);
+  border: 3px solid burlywood;
+  width: 70%;
+  padding: 3rem;
+  color: #fff;
+  margin: 7rem auto;
+  line-height: 50px;
+}
+
+span {
+  font-size: 20px;
+  color: white;
+}

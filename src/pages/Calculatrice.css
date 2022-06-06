@@ -1,0 +1,18 @@
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-calc {
+  width: 70%;
+  margin: auto;
+}
+
+.inner {
+  background-color: rgb(30, 130, 30);
+  border: 3px solid burlywood;
+  width: 47%;
+  padding: 3rem;
+  color: #fff;
+}
