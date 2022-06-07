@@ -1,0 +1,29 @@
+.container-Nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  background-color: rgb(30, 130, 30);
+  border: 3px solid burlywood;
+  padding: 1rem;
+  color: #fff;
+}
+
+.navBar {
+  display: flex;
+  margin-right: 2rem;
+  gap: 2px;
+}
+
+.links {
+  color: #fff;
+  font-size: 20px;
+  padding-left: 12px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.links:hover {
+  color: #000;
+}

@@ -1,0 +1,70 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/background.jpg");
+}
+
+.calculator-container {
+  background-color: hsl(0, 0%, 18%);
+  margin: 3rem auto;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0 3px 6px, rgba(0, 0, 0, 0.23) 0 3px 6px;
+}
+
+span {
+  color: hsl(0, 0%, 87%);
+}
+
+.output {
+  background-color: hsl(230, 30%, 85%);
+  padding: 1.2rem;
+  margin: 1rem 0;
+  border-radius: 12px;
+}
+
+.operation {
+  font-size: 30px;
+}
+
+.buttons .group1,
+.buttons .group2,
+.buttons .group3,
+.buttons .group4,
+.buttons .group5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: auto;
+}
+
+.buttons .group1 button,
+.buttons .group2 button,
+.buttons .group3 button,
+.buttons .group4 button,
+.buttons .group5 button {
+  outline: none;
+  border: 1px solid hsl(0, 0%, 18%);
+  padding: 1rem;
+  margin: 2px;
+  border-radius: 12px;
+}
+
+.buttons .group1 button:hover,
+.buttons .group2 button:hover,
+.buttons .group3 button:hover,
+.buttons .group4 button:hover,
+.buttons .group5 button:hover {
+  color: #fff;
+  background-color: hsl(0, 0%, 18%);
+  border: 1px solid #fff;
+}
+
+.span2 {
+  grid-column: span 2;
+}
