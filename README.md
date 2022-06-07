@@ -1,9 +1,6 @@
 # math-magicians-app
 > A Microverse solo programming project on how we master REACT.
 
-<img align="center" src="./src/shot.png">
-
-
 ## Built With
 
 - JSX
