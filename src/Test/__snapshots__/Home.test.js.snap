@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it should match the home page 1`] = `
+<div>
+  <h1
+    className="header"
+  >
+    Welcome to our page!
+  </h1>
+  <p
+    className="description"
+  >
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, m! Provident similique accusantiOfficiis iure rerum voluptates a cumque velit
+     
+  </p>
+</div>
+`;
