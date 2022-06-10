@@ -23,7 +23,7 @@ describe("Testing user interactions on the main component (App.js).", () => {
 
   describe("3) When user clicks on quotes button", () => {
     test("it should render the quotes page", () => {
-      render(<App />);
+    render(<App />)
       userEvent.click(screen.getByRole("link", { name: /quotes/i }));
       expect(
         screen.getByRole("heading", {
