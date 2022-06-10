@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it should match the quotes page 1`] = `
+<div
+  className="container"
+>
+  <h3>
+    Without mathematics, there’s nothing you can do. Everything around you is mathematics. Everything around you is numbers. —
+     
+    <span>
+      Shakuntala Devi
+    </span>
+     
+    —
+  </h3>
+</div>
+`;
